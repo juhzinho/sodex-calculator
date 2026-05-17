@@ -42,7 +42,7 @@ Points: ${points}
 Share: ${share}%
 Tokens: ${tokens}${profitText}
 
-Calculate yours at v0-sodex-calculator.vercel.app`,
+Calculate yours at https://v0-sodex-calculator.vercel.app/`,
     profitTweetText: (value: string, roi: string) => `\nProfit: +$${value} (+${roi}% ROI)`,
     lossTweetText: (value: string, roi: string) => `\nLoss: -$${value} (${roi}% ROI)`,
   },
@@ -82,7 +82,7 @@ Pontos: ${points}
 Share: ${share}%
 Tokens: ${tokens}${profitText}
 
-Calcule o seu em v0-sodex-calculator.vercel.app`,
+Calcule o seu em https://v0-sodex-calculator.vercel.app/`,
     profitTweetText: (value: string, roi: string) => `\nLucro: +$${value} (+${roi}% ROI)`,
     lossTweetText: (value: string, roi: string) => `\nPrejuizo: -$${value} (${roi}% ROI)`,
   },
@@ -263,7 +263,7 @@ export function AirdropCalculator() {
     ctx.font = "14px system-ui, -apple-system, sans-serif"
     ctx.fillStyle = "#666666"
     ctx.textAlign = "center"
-    ctx.fillText("v0-sodex-calculator.vercel.app", canvas.width / 2, canvas.height - 20)
+    ctx.fillText("https://v0-sodex-calculator.vercel.app/", canvas.width / 2, canvas.height - 20)
 
     // Download
     canvas.toBlob((blob) => {
@@ -410,7 +410,7 @@ export function AirdropCalculator() {
                 )}
 
                 <p className="text-xs text-muted-foreground text-center">
-                  v0-sodex-calculator.vercel.app
+                  https://v0-sodex-calculator.vercel.app/
                 </p>
               </div>
             </div>
